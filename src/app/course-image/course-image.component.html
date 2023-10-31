@@ -1,0 +1,7 @@
+<img width="300" alt="Angular Logo" [src]="imageUrl" *ngIf="imageUrl; else noImage" >
+        <!-- alternative sintax -->
+        <!-- <img width="300" alt="Angular Logo" src="{{course.iconUrl}}"> -->
+        
+<ng-template #noImage>No image available</ng-template>
+
+        
